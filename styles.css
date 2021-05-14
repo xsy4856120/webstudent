@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI";
+}
+.header{
+    height: 70px;
+    background-color: bisque;
+    font-size: 24px;
+    line-height: 70px;
+    text-align: center;
+}
+.header.user{
+    height: 70px;
+    background-color: bisque;
+    font-size: 24px;
+    line-height: 70px;
+}
+
+.left{
+    position: absolute;
+    width: 200px;
+    float: left;
+    left: 0px;
+    bottom: 0px;
+    top: 70px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.left.title{
+    height: 48px;
+    line-height: 48px;
+    background-color: #ad5d5d;
+    border-bottom: 1px solid #c2c2c2;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-color: #f5eeee;
+}
+.main{
+    float: right;
+    position: absolute;
+    float: left;
+    left: 200px;
+    right: 0px;
+    bottom: 0px;
+    top: 70px;
+}
+.menux p{
+    height: 40px;
+    line-height: 40px;
+    background-color: darkgray;
+    border-bottom: 1px solid #c2c2c2;
+    text-align: center;
+
+}
+.menux p:hover{
+    background-color: beige;
+    color: white;
+    cursor: pointer;
+}
+.menux ul{
+    list-style: none;
+    /*display:none;*/
+}
+.menux ul li{
+    line-height: 36px;
+    height: 36px;
+    background-color: darkgray;
+    border-bottom:1px dotted #725959;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.menux ul li:hover{
+    background-color: #e7d5d5;
+    color: white;
+}
+
+.location{
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+}
+
+.condition{
+    background-color: white;
+    border: 1px solid #725959;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+.tablelist{
+    width: 100%;
+    border: 1px solid #a09b9b;
+}
+.tablelist td,th{
+    height: 30px;
+}
+.tablelist td{
+    background-color: white;
+}
+
+.page{
+    width: 100%;
+    border: 1px solid #a09b9b;
+    height: 40px;
+}
+
+.page{
+    border: 1px solid;
+    padding: 2px 5px;
+}
+
+.page-no{
+    width: 40px;
+
+}
+
+.add{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+}
+
+.tableadd{
+    width: 100%;
+}
+
+.tableadd td{
+    height: 30px;
+}
